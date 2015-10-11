@@ -1,28 +1,28 @@
 # Teensy-Fun
 
-A collection of simple DIYs with the [Teensy] microcontroller. Most of the projects are based on the version 3.1 of the Teensy board.
+A collection of simple DIYs with the [Teensy] microcontroller. Most of the projects are based on version 3.1 of the Teensy board.
 
-## EvilMouse - Pentetration testing tilt mouse 
+## EvilMouse - Penetration testing tilt mouse 
 
-[Teensy] is a USB based HID controller and has the full capabilities of a programmable keyboard and a mouse. One of the coolest aspects of this is using Teensy as a penetration testing usb dongle. [Peensy], [Kautilya] & [PHUKD Lib] are some examples of this.
+[Teensy] is a USB based HID controller that has full capabilities of a programmable keyboard and mouse. One of the coolest aspects of this is using Teensy as a penetration testing usb dongle. [Peensy], [Kautilya] & [PHUKD Lib] are some examples of this.
 
 EvilMouse is a penetration testing device disguised as a tilt controlled mouse. Packaged as a mouse controller, it can be used in penetration tests where USB dongles are frowned upon.
 
 ### Pre-requisites
 
-  - Teensy is good to go https://www.pjrc.com/teensy/tutorial.html
-  - Accelerometer is calibrated http://codergirljp.blogspot.com/2014/05/adxl335-accelerometer-on-teensy-31.html
-  - PHUKD library is installed http://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle#Programming_examples_and_my_PHUKD_library
+  - Teensy is good to go: https://www.pjrc.com/teensy/tutorial.html
+  - Accelerometer is calibrated: http://codergirljp.blogspot.com/2014/05/adxl335-accelerometer-on-teensy-31.html
+  - PHUKD library is installed: http://www.irongeek.com/i.php?page=security/programmable-hid-usb-keystroke-dongle#Programming_examples_and_my_PHUKD_library
   
 ### Design & Function
 
-  - Teensy 3.1 https://www.pjrc.com/teensy/teensy31.html#specs
-  - Accelerometer ADXL335 https://www.sparkfun.com/products/9269
-  - Pushbuttons https://www.sparkfun.com/products/97
-  - Bread board https://www.sparkfun.com/products/112
-  - Jumper wires https://www.sparkfun.com/products/11026
-  
-**evilMouse.ino** is a prototype of the design. It has the functionalilty of a tilt mouse with a couple of sample code executions for Windows and Mac using the [PHUKD Lib].
+**evilMouse.ino** is a prototype with the functionalilty of a tilt mouse and a couple of sample code executions for Windows and Mac using the [PHUKD Lib].
+
+  - Teensy 3.1: https://www.pjrc.com/teensy/teensy31.html#specs
+  - Accelerometer ADXL335: https://www.sparkfun.com/products/9269
+  - Pushbuttons: https://www.sparkfun.com/products/97
+  - Bread board: https://www.sparkfun.com/products/112
+  - Jumper wires: https://www.sparkfun.com/products/11026
 
 ![evil-mouse-design](evil-mouse-design.JPG?raw=true "EvilMouse Design")
 
