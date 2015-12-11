@@ -32,7 +32,7 @@ EvilMouse is a penetration testing device disguised as a tilt controlled mouse. 
   - **Win** - Will run commands on a Windows target
   - **Mac** - Will run commands on a Mac target
 
-## More Teensy fun later...
+## More later...
 
 [Teensy]: <https://www.pjrc.com/teensy/>
 [Kautilya]: <https://github.com/samratashok/Kautilya>
